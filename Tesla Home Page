@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tesla</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{
+background-color: lightblue;
+}
+.background-color_1
+{
+  background-color: green;
+}
+.para_div
+{
+    background-color: lightblue;
+}
+.para_p
+{
+    background-color:yellow;
+}
+h1{
+color:white;
+background-color:DodgerBlue;
+padding:5px;
+text-align: center;
+}
+p{
+background-color:Tomato;
+font-family: verdana;
+font-size: 20px;
+border-style: dotted;
+}
+p.one
+{
+border-style:solid;
+border-width:5px;
+}
+p.two
+{
+    border-style: solid;
+    border-width: 20px 5px;
+}
+#para1{
+text-align: center;
+color: red;
+}
+* {
+text-align:center;
+}
+.dashed
+{
+    border-style:dashed;
+}
+.solid
+{
+    border-style: solid;
+}
+.note
+{
+    color: blue;
+}
+
+.fridge
+{
+    color: red;
+}
+
+.mouse
+{
+    background-color: powderblue;
+}
+
+p.four
+{
+    border-style: solid;
+    border-width: 5px 20px;
+}
+
+p.five
+{
+    border-style: solid;
+    border-width: 20px 5px;
+}
+
+p.six
+{
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+</style>
+</head>
+<body>
+<h1>Write Your First Heading</h1>
+<p>Write your First Paragraph</p>
+<h1>This is heading 1</h1>
+<p>This is paragraph</p>
+<p>This is another paragraph</p>
+<h2>This is heading 2</h2>
+<a href="http://www.tesla.com">This is a link</a>
+<h3>This is heading 3</h3>
+<p id="para1">This is Paragraph 3</p>
+<h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<img src="C:\Users\hp\OneDrive\Desktop\TESLA\Tesla_logo.png" alt="Tesla" width="104" height="142">
+<p style="color:DodgerBlue;">Hello World</p>
+<p style="color:MediumSeaGreen;">Good Work</p>
+<h2>What can JavaScript do?</h2>
+<p id="para2">JavaScript can change the style of a HTML element</p>
+<button type="button" onclick="document.getElementById('para2').style.fontSize='35px'">Click Me!</button>
+<h1>Tesla is a car company</h1>
+<p>Tesla is a car that drives in electricity</p>
+<p>Tesla was founded by <br>Elon Musk</p>
+<a href="https://www.tesla.com">Tesla</a>
+<h1 style="color:Tomato;">Tesla is a electric car</h1>
+<p style="color:DodgerBlue;">Tesla is a good car</p>
+<p style="color:MediumSeaGreen">Tesla drives in Electric</p>
+<h2>Tesla is in USA</h2>
+<p id="current">JavaScript can hide HTML elements</p>
+<button type="button" onclick="document.getElementById('current').style.display='none'">Click Me!</button>
+<img src="C:\Users\hp\OneDrive\Desktop\TESLA\Tesla_logo.png" alt="Tesla" width="104" height="142">
+<p style="color:blue">This is a Green Paragraph</p>
+<p id="main"></p>
+<h1 style="border: 2px solid Tomato;">Tesla</h1>
+<h1 style="border: 2px solid DodgerBlue;">Tesla is a car company</h1>
+<h1 style="border: 2px solid Violet;">Tesla is a electric car</h1>
+<p id="state"></p>
+<p><b>Tesla</b></p>
+<p><i>Tesla</i></p>
+<p><sub>Tesla</sub></p>
+<p><sup>Tesla</sup></p>
+<p id="menu"></p>
+<h1 style="background-color:rgb(255,0,0);">Artificial Intelligence</h1>
+<h1 style="background-color:rgb(255,99,71);">Model 3</h1>
+<p id="nature"></p>
+<h1 style="background-color:rgb(60,60,60);">Tesla</h1>
+<p class="one">Tesla</p>
+<p id="car1">Tesla</p>
+<h1 style="background-color:rgba(255,99,71,1);">Tesla</h1>
+<h1 style="background-color:#ff0000">Tesla</h1>
+<h1 style="background-color:#404040;">Tesla transmission</h1>
+<p class="dashed">Tesla</p>
+<p id="sam_one">Tesla Model 3</p>
+<h1 style="background-color:hsl(0, 100%, 50%)">Tesla</h1>
+<p class="solid">Tesla</p>
+<p id="variable"></p>
+<h1 style="color:blue;">Tesla</h1>
+<p style="color:red">Tesla</p>
+<p class="two">Tesla</p>
+<p id="charger"></p>
+<h1 class="note">Tesla</h1>
+<p class="fridge">Tesla is AI</p>
+<p class="mouse">Tesla is AI.</p>
+<p class="four">Tesla is AI.</p>
+<p class="five">Tesla is AI.</p>
+<p class="six">Tesla is AI.</p>
+<p id="tv"></p>
+<h1 class="book">Tesla AI</h1>
+<p class="photo">Tesla is a electric car company</p>
+<p class="eleven">Tesla is only AI</p>
+<p class="twelve">Tesla is electric company.</p>
+<p id="clock"></p>
+<h1 class="paper">Tesla</h1>
+<p class="shirt">Tesla is AI</p>
+<h2>Individual Border Sides</h2>
+<p class="brd_sides">2 different border styles</p>
+<h1>1) JavaScript Variables</h1>
+<p>If you re-declare a JavaScript variable, it will not lose its value.</p>
+<p id="wire"></p>
+<h1>HTML Links</h1>
+<p><a href="https://www.tesla.com/">Visit Tesla</a></p>
+<h1 class="Heading1">Tesla Background color</h1>
+<p id="card"></p>
+<h2>The target Attribute</h2>
+<a href="https://www.tesla.com" target="_blank">Visit Tesla website</a>
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+<h1>Tesla</h1>
+<h2>Absolute URLs</h2>
+<p><a href="https://www.tesla.com">Tesla</a></p>
+<p><a href="https://www.google.com">Google</a></p>
+
+<h1>Tesla</h1>
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<h1 class="background-color_1">Tesla</h1>
+<div class="para_div">
+    This is a text inside div element.
+    <p class="para_p">
+        This paragraph has its own background color.
+    </p>
+    We are still in the div element.
+</div>
+
+<h1>
+    JavaScript Variables
+</h1>
+<p>
+    The result of adding "John" + " " + "Doe" is:
+</p>
+<p id="add_two">
+
+</p>
+</body>
+<script>
+    document.getElementById('main').innerHTML = "My First JavaScript";
+    document.write('Hello JavaScript by JavaScript');
+    document.write('JavaScript is a simple language for javatpoint learners');
+    var x = 5;
+    var y = 6;
+    var z = x + y;
+    document.getElementById('state').innerHTML = 'The value of z is: ' + z;
+    let a = 10;
+    let b = 20;
+    let c = a + b;
+    x1 = 5;
+    y1 = 6;
+    z1 = x1 + y1;
+    const price1 = 5;
+    const price2 = 6;
+    let total = price1 + price2;
+    document.getElementById('car1').innerHTML = 'The total is: ' + total;
+    document.getElementById('nature').innerHTML = 'The value of z1 is: ' + z1;
+    document.getElementById('menu').innerHTML = 'The value of c is: ' + c;
+    const pi = 3.14;
+    let person = 'John Doe';
+    let answer = 'Yes I am!';
+    document.getElementById('sam_one').innerHTML = pi + "<br>" + person + "<br>" + answer;
+    let carName = "Tesla";
+    document.getElementById('variable').innerHTML = carName;
+    let person1 = "John Doe", carName1 = "Volvo", price = 200;
+    document.getElementById('charger').innerHTML = carName1;
+    
+    let person2 = "John Doe",
+    carName2 = "Tesla",
+    price3 = 1000000;
+    document.getElementById('tv').innerHTML = carName2;
+
+    let carName3;
+    document.getElementById('clock').innerHTML = carName3;
+
+    var carName4 = "Tesla";
+    var carName4;
+    document.getElementById('wire').innerHTML = carName4;
+
+    let x2 = 5 + 2 + 3;
+    document.getElementById('card').innerHTML = x2;
+
+    let x3 = "John" + " " + "Doe";
+    document.getElementById("add_two").innerHTML = x3;
+    </script>
+</html>    
+
+x_22 = 20
+
+print(x_22)
+
+print(type(x_22))
+
+SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+
+CREATE TABLE tblEmployee(ID INT,Name VARCHAR(250),Gender VARCHAR(250),Salary INT,DepartmentId INT FOREIGN KEY REFERENCES tblDepartment(Id));
+
+CREATE TABLE tblDepartment(Id INT NOT NULL Primary Key,Department_Name VARCHAR(250),Location VARCHAR(250),DepartmentHead VARCHAR(250));
+
+DROP TABLE tblDepartment; 
+DROP TABLE tblEmployee; 
+
+INSERT INTO tblEmployee VALUES(1,'Tom','Male',40000000,1);
+INSERT INTO tblEmployee VALUES(2,'Pam','Female',30000000,3);
+INSERT INTO tblEmployee VALUES(3,'John','Male',35000000,1);
+INSERT INTO tblEmployee VALUES(4,'Sam','Male',45000000,2);
+INSERT INTO tblEmployee VALUES(5,'Todd','Male',28000000,2);
+INSERT INTO tblEmployee VALUES(6,'Ben','Male',70000000,1);
+INSERT INTO tblEmployee VALUES(7,'Sara','Female',55000000,1);
+INSERT INTO tblEmployee VALUES(8,'Valane','Female',550000000,1);
+INSERT INTO tblEmployee VALUES(9,'James','Male',65000000,NULL);
+INSERT INTO tblEmployee VALUES(10,'Russel','Male',88000000,NULL);
+
+INSERT INTO  tblDepartment VALUES(1,'IT','London','Rick');
+INSERT INTO  tblDepartment VALUES(2,'Payroll','California','Ron');
+INSERT INTO  tblDepartment VALUES(3,'HR','New York','Christie');
+INSERT INTO  tblDepartment VALUES(4,'Other Department','Washington','Cindrella');
+
+SELECT * FROM tblDepartment;
+SELECT * FROM tblEmployee;
+
+--SELECT ColumnList
+--FROM LeftTable
+--JoinType RightTable
+--ON JoinCondition
+
+
+
+SELECT Name, Gender, Salary, Department_Name 
+FROM tblEmployee 
+LEFT OUTER JOIN tblDepartment
+ON tblEmployee.DepartmentId = tblDepartment.Id;
+
+SELECT Name, Gender, Salary, Department_Name 
+FROM tblEmployee 
+INNER JOIN tblDepartment 
+ON tblEmployee.DepartmentId = tblDepartment.Id;
+
+SELECT Name, Gender, Salary, Department_Name 
+FROM tblEmployee 
+RIGHT OUTER JOIN tblDepartment
+ON tblEmployee.DepartmentId = tblDepartment.Id;
+
+SELECT Name, Gender, Salary, Department_Name
+FROM tblEmployee 
+FULL OUTER JOIN tblDepartment
+ON tblEmployee.DepartmentId = tblDepartment.Id;
+
+SELECT Name, Gender, Salary, Department_Name FROM tblEmployee CROSS JOIN tblDepartment;
